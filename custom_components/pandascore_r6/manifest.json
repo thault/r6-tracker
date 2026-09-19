@@ -1,0 +1,11 @@
+{
+  "domain": "pandascore_r6",
+  "name": "R6 Siege Pro Schedule (PandaScore)",
+  "codeowners": ["@thault"],
+  "config_flow": true,
+  "documentation": "https://github.com/thault/r6-tracker",
+  "issue_tracker": "https://github.com/thault/r6-tracker/issues",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "version": "0.1.0"
+}

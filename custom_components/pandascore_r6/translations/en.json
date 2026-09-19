@@ -1,0 +1,38 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to PandaScore",
+        "description": "Enter your PandaScore API token to track upcoming Rainbow Six Siege pro matches.",
+        "data": {
+          "api_key": "PandaScore API Token"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Reauthenticate PandaScore",
+        "description": "Your PandaScore API token is no longer valid. Enter a new one.",
+        "data": {
+          "api_key": "PandaScore API Token"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "The API token was rejected by PandaScore.",
+      "cannot_connect": "Could not connect to the PandaScore API."
+    },
+    "abort": {
+      "already_configured": "R6 Siege Pro Schedule is already configured.",
+      "reauth_successful": "Re-authentication was successful."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "R6 Siege Pro Schedule options",
+        "data": {
+          "update_interval": "Poll interval (minutes)"
+        }
+      }
+    }
+  }
+}
