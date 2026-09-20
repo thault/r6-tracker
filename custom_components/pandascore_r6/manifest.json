@@ -4,8 +4,8 @@
   "codeowners": ["@thault"],
   "config_flow": true,
   "documentation": "https://github.com/thault/r6-tracker",
-  "issue_tracker": "https://github.com/thault/r6-tracker/issues",
   "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/thault/r6-tracker/issues",
   "requirements": [],
   "version": "0.1.0"
 }
